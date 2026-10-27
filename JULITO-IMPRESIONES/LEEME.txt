@@ -1,0 +1,31 @@
+JULITO IMPRESIONES — Sitio web
+Desarrollado por Arkania Studios
+
+ESTRUCTURA
+JULITO-IMPRESIONES/
+├── index.html
+├── CSS/style.css
+├── JS/script.js
+└── IMG/ (logo, hero, servicios, portafolio, equipo, video)
+
+CÓMO VERLO
+Abre index.html en cualquier navegador. No necesita servidor.
+
+QUÉ CAMBIAR CUANDO TENGAS LOS DATOS REALES
+1. Número de WhatsApp: JS/script.js, primera línea -> const WHATSAPP = '573000000000';
+   (también en index.html en los enlaces wa.me y tel:)
+2. Correo: busca "contacto@julitoimpresiones.com" en index.html
+3. Horarios, teléfono y dirección: sección "Contacto" en index.html
+4. Cifras (años, proyectos): sección "¿Por qué elegirnos?" -> data-count
+5. Testimonios reales: sección "Testimonios"
+6. Logos de clientes: reemplaza los bloques .logo-slot por <img>
+7. Historia, misión, visión y certificaciones: sección "Nosotros"
+   (los textos provisionales están marcados en dorado con la clase .prov)
+8. Video: en JS/script.js está el comentario con el código listo para
+   reemplazar la imagen por tu video o un iframe de YouTube.
+9. Imágenes: sustituye los archivos dentro de IMG/ conservando los nombres
+   y todo seguirá funcionando.
+10. Mapa: en index.html cambia la dirección del iframe de Google Maps.
+
+Todos los textos provisionales están marcados con "(por confirmar)" o en
+cursiva dorada para que sean fáciles de encontrar.
